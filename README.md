@@ -11,18 +11,6 @@ Our governance model ensures:
 - **Community committers** have authority over technical direction.  
 - **Engineers** have a single, clear channel of direction.  
 
-## Governance Structure (Diagram)
-
-```mermaid
-flowchart TD
-    GB["Governing Board<br/>(Sponsors control $$)"] -->|Funding priorities| SC["Steering Committee<br/>(Committers + limited sponsor seats)"]
-
-    SC -->|Unified technical direction| ENG["Engineering Team<br/>(Committers, fellows, contractors)"]
-
-    ENG -->|Feasibility feedback| SC
-    SC -->|Negotiates alignment| GB
-```
-
 ## Documents
 
 - [Governance Charter](./arctos_governance_charter.md)  
