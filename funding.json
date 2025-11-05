@@ -1,0 +1,106 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Arctos Alliance",
+    "email": "contact@arctosalliance.org",
+    "description": "Arctos Alliance exists to ensure the long-term sustainability of Apache Arrow and Apache Parquet open-source projects. We fund ongoing development of critical data infrastructure while keeping these projects neutral and independent. Our mission is to support engineers and researchers in analytics, machine learning, and high-performance computing through community-driven development.",
+    "webpageUrl": {
+      "url": "https://arctosalliance.org"
+    }
+  },
+  "projects": {
+    "arctos": {
+      "name": "Arctos Alliance",
+      "description": "Organization dedicated to sustaining Apache Arrow and Apache Parquet projects through independent funding and governance",
+      "webpageUrl": {
+        "url": "https://arctosalliance.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/arctosalliance/arctosalliance"
+      },
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "tags": [
+        "apache-arrow",
+        "apache-parquet",
+        "open-source",
+        "data-infrastructure",
+        "machine-learning",
+        "high-performance-computing",
+        "cloud-native",
+        "data-engineering"
+      ]
+    }
+  },
+  "funding": {
+    "channels": [
+      {
+        "type": "opencollective",
+        "url": "https://opencollective.com/arctosalliance"
+      }
+    ],
+    "plans": [
+      {
+        "name": "Friend of Arctos",
+        "description": "Individual supporter tier starting at $5/month",
+        "price": 5,
+        "currency": "USD",
+        "frequency": "monthly"
+      },
+      {
+        "name": "Partner",
+        "description": "Organizational partner tier with logo placement and advisory input",
+        "price": 25000,
+        "currency": "USD",
+        "frequency": "yearly"
+      },
+      {
+        "name": "Champion",
+        "description": "Champion tier with enhanced benefits and governance participation",
+        "price": 50000,
+        "currency": "USD",
+        "frequency": "yearly"
+      },
+      {
+        "name": "Strategic Sponsor",
+        "description": "Strategic sponsor tier with significant governance influence",
+        "price": 100000,
+        "currency": "USD",
+        "frequency": "yearly"
+      },
+      {
+        "name": "Sustaining Sponsor",
+        "description": "Sustaining sponsor tier providing core organizational support",
+        "price": 250000,
+        "currency": "USD",
+        "frequency": "yearly"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Minimum viable Arctos",
+        "description": "Support 4-5 team members at reduced hours",
+        "price": 250000,
+        "currency": "USD",
+        "frequency": "yearly"
+      },
+      {
+        "name": "Minimum sustainable Arctos",
+        "description": "Support current members with more hours",
+        "price": 1000000,
+        "currency": "USD",
+        "frequency": "yearly"
+      },
+      {
+        "name": "Fully sustainable Arctos",
+        "description": "Fully staff Arctos Alliance with 8-10 maintainers",
+        "price": 2000000,
+        "currency": "USD",
+        "frequency": "yearly"
+      }
+    ]
+  }
+}
