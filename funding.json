@@ -7,7 +7,7 @@
     "email": "contact@arctosalliance.org",
     "description": "Arctos Alliance exists to ensure the long-term sustainability of Apache Arrow and Apache Parquet open-source projects. We fund ongoing development of critical data infrastructure while keeping these projects neutral and independent. Our mission is to support engineers and researchers in analytics, machine learning, and high-performance computing through community-driven development.",
     "webpageUrl": {
-      "url": "https://opencollective.com/arctosalliance"
+      "url": "https://arctosalliance.org"
     }
   },
   "projects": {
@@ -15,7 +15,7 @@
       "name": "Arctos Alliance",
       "description": "Organization dedicated to sustaining Apache Arrow and Apache Parquet projects through independent funding and governance",
       "webpageUrl": {
-        "url": "https://opencollective.com/arctosalliance"
+        "url": "https://arctosalliance.org"
       },
       "repositoryUrl": {
         "url": "https://github.com/arctosalliance/"
