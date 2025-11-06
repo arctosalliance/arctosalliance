@@ -10,8 +10,9 @@
       "url": "https://arctosalliance.org"
     }
   },
-  "projects": {
-    "arctos": {
+  "projects": [
+    {
+      "guid": "arctos",
       "name": "Arctos Alliance",
       "description": "Organization dedicated to sustaining Apache Arrow and Apache Parquet projects through independent funding and governance",
       "webpageUrl": {
@@ -34,7 +35,7 @@
         "data-engineering"
       ]
     }
-  },
+  ],
   "funding": {
     "channels": [
       {
