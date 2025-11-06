@@ -39,6 +39,7 @@
   "funding": {
     "channels": [
       {
+        "guid": "opencollective-arctos",
         "type": "opencollective",
         "url": "https://opencollective.com/arctosalliance"
       }
