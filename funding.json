@@ -40,68 +40,61 @@
     "channels": [
       {
         "guid": "opencollective-arctos",
-        "type": "opencollective",
-        "url": "https://opencollective.com/arctosalliance"
+        "type": "payment-provider",
+        "address": "https://opencollective.com/arctosalliance",
+        "description": "Open Collective funding platform for transparent community funding"
       }
     ],
     "plans": [
       {
+        "guid": "friend-of-arctos",
+        "status": "active",
         "name": "Friend of Arctos",
         "description": "Individual supporter tier starting at $5/month",
-        "price": 5,
+        "amount": 5,
         "currency": "USD",
-        "frequency": "monthly"
+        "frequency": "monthly",
+        "channels": ["opencollective-arctos"]
       },
       {
+        "guid": "partner",
+        "status": "active",
         "name": "Partner",
         "description": "Organizational partner tier with logo placement and advisory input",
-        "price": 25000,
+        "amount": 25000,
         "currency": "USD",
-        "frequency": "yearly"
+        "frequency": "yearly",
+        "channels": ["opencollective-arctos"]
       },
       {
+        "guid": "champion",
+        "status": "active",
         "name": "Champion",
         "description": "Champion tier with enhanced benefits and governance participation",
-        "price": 50000,
+        "amount": 50000,
         "currency": "USD",
-        "frequency": "yearly"
+        "frequency": "yearly",
+        "channels": ["opencollective-arctos"]
       },
       {
+        "guid": "strategic-sponsor",
+        "status": "active",
         "name": "Strategic Sponsor",
         "description": "Strategic sponsor tier with significant governance influence",
-        "price": 100000,
+        "amount": 100000,
         "currency": "USD",
-        "frequency": "yearly"
+        "frequency": "yearly",
+        "channels": ["opencollective-arctos"]
       },
       {
+        "guid": "sustaining-sponsor",
+        "status": "active",
         "name": "Sustaining Sponsor",
         "description": "Sustaining sponsor tier providing core organizational support",
-        "price": 250000,
+        "amount": 250000,
         "currency": "USD",
-        "frequency": "yearly"
-      }
-    ],
-    "goals": [
-      {
-        "name": "Minimum viable Arctos",
-        "description": "Support 4-5 team members at reduced hours",
-        "price": 250000,
-        "currency": "USD",
-        "frequency": "yearly"
-      },
-      {
-        "name": "Minimum sustainable Arctos",
-        "description": "Support current members with more hours",
-        "price": 1000000,
-        "currency": "USD",
-        "frequency": "yearly"
-      },
-      {
-        "name": "Fully sustainable Arctos",
-        "description": "Fully staff Arctos Alliance with 8-10 maintainers",
-        "price": 2000000,
-        "currency": "USD",
-        "frequency": "yearly"
+        "frequency": "yearly",
+        "channels": ["opencollective-arctos"]
       }
     ]
   }
