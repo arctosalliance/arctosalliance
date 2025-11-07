@@ -39,7 +39,7 @@
   "funding": {
     "channels": [
       {
-        "guid": "opencollective-arctos",
+        "guid": "opencollective",
         "type": "payment-provider",
         "address": "https://opencollective.com/arctosalliance",
         "description": "Open Collective funding platform for transparent community funding"
@@ -54,7 +54,7 @@
         "amount": 5,
         "currency": "USD",
         "frequency": "monthly",
-        "channels": ["opencollective-arctos"]
+        "channels": ["opencollective"]
       },
       {
         "guid": "partner",
@@ -64,7 +64,7 @@
         "amount": 25000,
         "currency": "USD",
         "frequency": "yearly",
-        "channels": ["opencollective-arctos"]
+        "channels": ["opencollective"]
       },
       {
         "guid": "champion",
@@ -74,7 +74,7 @@
         "amount": 50000,
         "currency": "USD",
         "frequency": "yearly",
-        "channels": ["opencollective-arctos"]
+        "channels": ["opencollective"]
       },
       {
         "guid": "strategic-sponsor",
@@ -84,7 +84,7 @@
         "amount": 100000,
         "currency": "USD",
         "frequency": "yearly",
-        "channels": ["opencollective-arctos"]
+        "channels": ["opencollective"]
       },
       {
         "guid": "sustaining-sponsor",
@@ -94,7 +94,7 @@
         "amount": 250000,
         "currency": "USD",
         "frequency": "yearly",
-        "channels": ["opencollective-arctos"]
+        "channels": ["opencollective"]
       }
     ]
   }
